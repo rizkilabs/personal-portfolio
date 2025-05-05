@@ -45,7 +45,6 @@ You can deploy this project on GitHub Pages or Cloudflare Pages:
 
 personal-portfolio/
 ├── index.html
-├── about.html
 ├── projects.html
 ├── articles.html
 ├── contact.html
