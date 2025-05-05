@@ -43,13 +43,16 @@ You can deploy this project on GitHub Pages or Cloudflare Pages:
 
 ```
 
-portfolio/
+personal-portfolio/
 ├── index.html
 ├── about.html
 ├── projects.html
 ├── articles.html
 ├── contact.html
-├── style.css
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js       
 └── README.md
 
 ````
