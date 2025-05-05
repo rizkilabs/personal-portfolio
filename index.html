@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Mochamad Rizki</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Mochamad Rizki</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" />
 </head>
+
 <body>
-  <nav>
-    <div class="logo">Rizkilabs</div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="articles.html">Articles</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <button id="themeToggle">🌙 Dark Mode</button>
-</nav>
+    <nav>
+        <div class="logo">Rizkilabs</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </nav>
 
-  <main class="container">
-    <section>
-      <h1>Welcome to My Portfolio</h1>
-      <p>Hello! I'm Mochamad Rizki, a passionate Full Stack Developer.</p>
-      <p>This website showcases some of my projects, blog articles, and how you can contact me.</p>
-    </section>
-  </main>
+    <main class="container">
+        <section>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello! I'm Mochamad Rizki, a passionate Full Stack Developer.</p>
+            <p>This website showcases some of my projects, blog articles, and how you can contact me.</p>
+        </section>
+    </main>
 
-  <footer>
-    <p>© 2025 Mochamad Rizki.</p>
-  </footer>
+    <footer>
+        <p>© 2025 Mochamad Rizki.</p>
+    </footer>
 
-  <script>
-    const themeToggle = document.getElementById('themeToggle');
-    const currentTheme = localStorage.getItem('theme');
-  
-    if (currentTheme === 'dark') {
-      document.body.classList.add('dark');
-      themeToggle.textContent = '☀️ Light Mode';
-    }
-  
-    themeToggle.addEventListener('click', () => {
-      document.body.classList.toggle('dark');
-      const isDark = document.body.classList.contains('dark');
-      themeToggle.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
-      localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    });
-  </script>
-  
+    <script src="./js/script.js "></script>
+
 </body>
+
 </html>
